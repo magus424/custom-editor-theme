@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>com.github.magus424.customjetbrainstheme</id>
-    <name>custom-jetbrains-theme</name>
+    <id>com.github.magus424.customeditortheme</id>
+    <name>Custom Editor Theme</name>
     <vendor>magus424</vendor>
 
     <!-- Product and plugin compatibility requirements -->
@@ -8,12 +8,8 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.magus424.customjetbrainstheme.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.magus424.customjetbrainstheme.services.MyProjectService"/>
+        <themeProvider id="8efa2c55-9e8f-43b9-9aeb-28399b78b55f" path="/custom-editor-theme.theme.json"/>
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.magus424.customjetbrainstheme.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+    <applicationListeners/>
 </idea-plugin>

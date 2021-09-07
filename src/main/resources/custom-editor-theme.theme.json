@@ -1,0 +1,118 @@
+{
+  "name": "custom-editor-theme",
+  "dark": true,
+  "author": "magus424",
+  "editorScheme": "/custom-editor-theme.xml",
+  "colors": {
+    "backgroundColor": "#011627",
+    "foregroundColor": "#D6DEEB",
+    "secondaryTextColor": "#5F7E97",
+    "selectionBackgroundColor": "#152C3B",
+    "selectionForegroundColor": "#FFFFFF",
+    "buttonColor": "#0B253AFF",
+    "listBackgroundColor": "#011627FF",
+    "disabledColor": "#697098",
+    "contrastColor": "#010E1A",
+    "selectedTextColor": "#13344F",
+    "separatorsColor": "#122D42FF",
+    "highlightColor": "#084D81FF",
+    "treeSelectionColor": "#13344F50",
+    "notificationColor": "#01111DFF",
+    "accentColor": "#7E57C2",
+    "customAccentColor": "#0072BC",
+    "excludedFilesColor": "#0E293F"
+  },
+  "ui": {
+    "*": {
+      "foreground": "foregroundColor",
+      "background": "backgroundColor",
+      "borderColor": "backgroundColor",
+      "selectionBackground": "selectionBackgroundColor",
+      "treeSelection": "selectionBackgroundColor"
+    },
+    "ActionButton": {
+      "hoverBackground": "highlightColor",
+      "hoverBorderColor": "highlightColor",
+      "pressedBackground": "selectionBackgroundColor",
+      "pressedBorderColor": "selectionBackgroundColor"
+    },
+    "Borders": {
+      "color": "backgroundColor",
+      "ContrastBorderColor": "backgroundColor"
+    },
+    "Button": {
+      "arc": 3,
+      "disabledBorderColor": "buttonColor",
+      "startBackground": "buttonColor",
+      "endBackground": "buttonColor",
+      "startBorderColor": "buttonColor",
+      "endBorderColor": "buttonColor",
+      "default": {
+        "startBackground": "selectedTextColor",
+        "endBackground": "selectedTextColor",
+        "startBorderColor": "selectedTextColor",
+        "endBorderColor": "selectedTextColor"
+      }
+    },
+    "ComboBox": {
+      "ArrowButton": {
+        "background": "backgroundColor",
+        "nonEditableBackground": "backgroundColor",
+        "iconColor": "#FFFFFF"
+      },
+      "nonEditableBackground": "backgroundColor"
+    },
+    "DefaultTabs": {
+      "hoverBackground": "highlightColor",
+      "underlineColor": "customAccentColor",
+      "underlinedTabBackground": "selectedTextColor",
+      "underlinedTabForeground": "#FFFFFF"
+    },
+    "EditorTabs": {
+      "selectedBackground": "selectedTextColor",
+      "underlinedTabBackground": "selectedTextColor",
+      "underlinedTabForeground": "#FFFFFF"
+    },
+    "FileColor": {
+      "Blue": "selectedTextColor"
+    },
+    "Popup": {
+      "borderColor": "backgroundColor",
+      "innerBorderColor": "backgroundColor"
+    },
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedForeground": "foregroundColor",
+        "selectedBackground": "selectedTextColor"
+      }
+    },
+    "TitlePane": {
+      "background": "contrastColor",
+      "inactiveBackground": "backgroundColor"
+    },
+    "ToolTip": {
+      "borderColor": "backgroundColor"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "backgroundColor",
+        "inactiveBackground": "backgroundColor"
+      },
+      "HeaderTab": {
+        "underlinedTabBackground": "selectedTextColor"
+      }
+    },
+    "Tree": {
+      "foreground": "secondaryTextColor",
+      "selectionForeground": "#FFFFFF",
+      "rowHeight": 20
+    },
+    "VersionControl": {
+      "Log.Commit": {
+        "currentBranchBackground": "#2E3D5A",
+        "unmatchedForeground": "#727380"
+      },
+      "FileHistory.Commit.selectedBranchBackground": "#2E3D5A"
+    }
+  }
+}
