@@ -18,15 +18,17 @@
     "highlightColor": "#084D81FF",
     "treeSelectionColor": "#13344F50",
     "notificationColor": "#01111DFF",
-    "accentColor": "#7E57C2",
-    "customAccentColor": "#0072BC",
-    "excludedFilesColor": "#0E293F"
+    "accentColor": "#0072BC",
+    "excludedFilesColor": "#0E293F",
+    "white": "#FFFFFF"
   },
   "ui": {
     "*": {
       "foreground": "foregroundColor",
+      "textForeground": "foregroundColor",
+      "caretForeground": "foregroundColor",
       "background": "backgroundColor",
-      "borderColor": "backgroundColor",
+      "textBackground": "backgroundColor",
       "selectionBackground": "selectionBackgroundColor",
       "treeSelection": "selectionBackgroundColor"
     },
@@ -37,7 +39,7 @@
       "pressedBorderColor": "selectionBackgroundColor"
     },
     "Borders": {
-      "color": "backgroundColor",
+      "color": "separatorsColor",
       "ContrastBorderColor": "backgroundColor"
     },
     "Button": {
@@ -58,36 +60,94 @@
       "ArrowButton": {
         "background": "backgroundColor",
         "nonEditableBackground": "backgroundColor",
-        "iconColor": "#FFFFFF"
+        "iconColor": "white"
       },
-      "nonEditableBackground": "backgroundColor"
+      "nonEditableBackground": "backgroundColor",
+      "selectionForeground": "white"
+    },
+    "CompletionPopup": {
+      "foreground": "white"
+    },
+    "Component": {
+      "infoForeground": "secondaryTextColor"
     },
     "DefaultTabs": {
       "hoverBackground": "highlightColor",
       "underlineColor": "customAccentColor",
       "underlinedTabBackground": "selectedTextColor",
-      "underlinedTabForeground": "#FFFFFF"
+      "underlinedTabForeground": "white"
     },
     "EditorTabs": {
       "selectedBackground": "selectedTextColor",
       "underlinedTabBackground": "selectedTextColor",
-      "underlinedTabForeground": "#FFFFFF"
+      "underlinedTabForeground": "white"
     },
     "FileColor": {
       "Blue": "selectedTextColor"
     },
+    "Label": {
+      "infoForeground": "secondaryTextColor",
+      "selectedForeground": "white"
+    },
+    "List": {
+      "selectionForeground": "white",
+      "selectionInactiveForeground": "white"
+    },
+    "Menu": {
+      "borderColor": "backgroundColor",
+      "selectionForeground": "white",
+      "acceleratorForeground": "secondaryTextColor",
+      "acceleratorSelectionForeground": "secondaryTextColor"
+    },
+    "MenuBar": {
+      "borderColor": "backgroundColor"
+    },
+    "MenuItem": {
+      "selectionForeground": "white",
+      "acceleratorForeground": "secondaryTextColor",
+      "acceleratorSelectionForeground": "secondaryTextColor"
+    },
+    "NavBar": {
+      "borderColor": "backgroundColor"
+    },
     "Popup": {
       "borderColor": "backgroundColor",
-      "innerBorderColor": "backgroundColor"
+      "inactiveBorderColor": "backgroundColor",
+      "paintBorder": true,
+      "Header": {
+        "activeBackground": "backgroundColor",
+        "inactiveBackground": "contrastColor"
+      },
+      "Toolbar": {
+        "background": "backgroundColor",
+        "borderColor": "backgroundColor"
+      }
     },
     "SearchEverywhere": {
+      "SearchField": {
+        "background": "contrastColor",
+        "borderColor": "backgroundColor",
+        "infoForeground": "white"
+      },
       "Tab": {
-        "selectedForeground": "foregroundColor",
-        "selectedBackground": "selectedTextColor"
+        "selectedForeground": "white",
+        "selectedBackground": "accentColor"
       }
+    },
+    "SearchMatch": {
+      "startBackground": "accentColor",
+      "endBackground": "accentColor"
+    },
+    "Separator": {
+      "separatorColor": "separatorsColor"
+    },
+    "TextField": {
+      "background": "contrastColor"
     },
     "TitlePane": {
       "background": "contrastColor",
+      "infoForeground": "secondaryTextColor",
+      "inactiveInfoForeground": "secondaryTextColor",
       "inactiveBackground": "backgroundColor"
     },
     "ToolTip": {
@@ -104,8 +164,8 @@
     },
     "Tree": {
       "foreground": "secondaryTextColor",
-      "selectionForeground": "#FFFFFF",
-      "rowHeight": 20
+      "selectionForeground": "white",
+      "selectionInactiveForeground": "secondaryTextColor"
     },
     "VersionControl": {
       "Log.Commit": {
