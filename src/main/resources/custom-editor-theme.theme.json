@@ -84,6 +84,7 @@
     "DefaultTabs": {
       "hoverBackground": "highlightColor",
       "underlineColor": "accentColor",
+      "inactiveUnderlineColor": "accentColor",
       "underlinedTabBackground": "selectedTextColor",
       "underlinedTabForeground": "white"
     },
@@ -139,6 +140,12 @@
         "background": "backgroundColor",
         "borderColor": "backgroundColor"
       }
+    },
+    "ProgressBar": {
+      "trackColor": "highlightColor",
+      "progressColor": "accentColor",
+      "indeterminateStartColor": "accentColor",
+      "indeterminateEndColor": "#00FFFF"
     },
     "SearchEverywhere": {
       "SearchField": {
