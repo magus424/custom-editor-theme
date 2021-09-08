@@ -11,7 +11,7 @@
     "selectionForegroundColor": "#FFFFFF",
     "buttonColor": "#0B253AFF",
     "listBackgroundColor": "#011627FF",
-    "disabledColor": "#697098",
+    "disabledColor": "#0B253AA0",
     "contrastColor": "#010E1A",
     "selectedTextColor": "#13344F",
     "separatorsColor": "#122D42FF",
@@ -62,6 +62,8 @@
         "nonEditableBackground": "backgroundColor",
         "iconColor": "white"
       },
+      "disabledBackground": "disabledColor",
+      "disabledForeground": "secondaryTextColor",
       "nonEditableBackground": "backgroundColor",
       "selectionForeground": "white"
     },
@@ -69,11 +71,14 @@
       "foreground": "white"
     },
     "Component": {
+      "arc": 0,
+      "borderColor": "separatorsColor",
+      "disabledBorderColor": "separatorsColor",
       "infoForeground": "secondaryTextColor"
     },
     "DefaultTabs": {
       "hoverBackground": "highlightColor",
-      "underlineColor": "customAccentColor",
+      "underlineColor": "accentColor",
       "underlinedTabBackground": "selectedTextColor",
       "underlinedTabForeground": "white"
     },
@@ -87,7 +92,8 @@
     },
     "Label": {
       "infoForeground": "secondaryTextColor",
-      "selectedForeground": "white"
+      "selectedForeground": "white",
+      "disabledForeground": "secondaryTextColor"
     },
     "List": {
       "selectionForeground": "white",
@@ -97,7 +103,8 @@
       "borderColor": "backgroundColor",
       "selectionForeground": "white",
       "acceleratorForeground": "secondaryTextColor",
-      "acceleratorSelectionForeground": "secondaryTextColor"
+      "acceleratorSelectionForeground": "secondaryTextColor",
+      "disabledForeground": "secondaryTextColor"
     },
     "MenuBar": {
       "borderColor": "backgroundColor"
@@ -105,7 +112,8 @@
     "MenuItem": {
       "selectionForeground": "white",
       "acceleratorForeground": "secondaryTextColor",
-      "acceleratorSelectionForeground": "secondaryTextColor"
+      "acceleratorSelectionForeground": "secondaryTextColor",
+      "disabledForeground": "secondaryTextColor"
     },
     "NavBar": {
       "borderColor": "backgroundColor"
@@ -141,8 +149,12 @@
     "Separator": {
       "separatorColor": "separatorsColor"
     },
+    "TextArea": {
+      "selectionForeground": "white"
+    },
     "TextField": {
-      "background": "contrastColor"
+      "background": "backgroundColor",
+      "selectionForeground": "white"
     },
     "TitlePane": {
       "background": "contrastColor",
