@@ -7,7 +7,7 @@
     "backgroundColor": "#011627",
     "foregroundColor": "#D6DEEB",
     "secondaryTextColor": "#5F7E97",
-    "selectionBackgroundColor": "#152C3B",
+    "selectionBackgroundColor": "#152C3B90",
     "selectionForegroundColor": "#FFFFFF",
     "buttonColor": "#0B253AFF",
     "listBackgroundColor": "#011627FF",
@@ -43,13 +43,16 @@
       "ContrastBorderColor": "backgroundColor"
     },
     "Button": {
-      "arc": 3,
+      "arc": 5,
+      "foreground": "secondaryTextColor",
       "disabledBorderColor": "buttonColor",
       "startBackground": "buttonColor",
       "endBackground": "buttonColor",
       "startBorderColor": "buttonColor",
       "endBorderColor": "buttonColor",
+      "shadowWidth": 0,
       "default": {
+        "foreground": "white",
         "startBackground": "selectedTextColor",
         "endBackground": "selectedTextColor",
         "startBorderColor": "selectedTextColor",
@@ -74,7 +77,9 @@
       "arc": 0,
       "borderColor": "separatorsColor",
       "disabledBorderColor": "separatorsColor",
-      "infoForeground": "secondaryTextColor"
+      "infoForeground": "secondaryTextColor",
+      "focusedBorderColor": "accentColor",
+      "focusWidth": 1
     },
     "DefaultTabs": {
       "hoverBackground": "highlightColor",
