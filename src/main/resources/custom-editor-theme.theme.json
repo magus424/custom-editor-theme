@@ -1,5 +1,5 @@
 {
-  "name": "custom-editor-theme",
+  "name": "Custom Editor Theme",
   "dark": true,
   "author": "magus424",
   "editorScheme": "/custom-editor-theme.xml",
@@ -122,6 +122,10 @@
     },
     "NavBar": {
       "borderColor": "backgroundColor"
+    },
+    "Plugins": {
+      "hoverBackground": "highlightColor",
+      "lightSelectionBackground": "selectionBackgroundColor"
     },
     "Popup": {
       "borderColor": "backgroundColor",
