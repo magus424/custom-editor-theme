@@ -26,6 +26,7 @@
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
     <option name="CARET_COLOR" value="7e57c2" />
     <option name="CARET_ROW_COLOR" value="232235" />
+    <option name="COMPLETION_COLOR" value="11627" />
     <option name="CONSOLE_BACKGROUND_KEY" value="" />
     <option name="DELETED_LINES_COLOR" value="ff5370" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
@@ -214,7 +215,7 @@
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="4b1717" />
+        <option name="BACKGROUND" value="4c0202" />
       </value>
     </option>
     <option name="BROWSEWORDATCARET">
@@ -254,11 +255,6 @@
     <option name="CLASS_REFERENCE">
       <value>
         <option name="FOREGROUND" value="1a1f29" />
-      </value>
-    </option>
-    <option name="CODE_LENS_BORDER_COLOR">
-      <value>
-        <option name="EFFECT_COLOR" value="999999" />
       </value>
     </option>
     <option name="COFFEESCRIPT.CLASS_NAME">
@@ -770,7 +766,7 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="597f5f" />
+        <option name="BACKGROUND" value="24c2b" />
       </value>
     </option>
     <option name="Enum name">
@@ -3697,7 +3693,7 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b71c1c" />
+        <option name="FOREGROUND" value="ef5350" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME">

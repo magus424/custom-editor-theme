@@ -71,7 +71,10 @@
       "selectionForeground": "white"
     },
     "CompletionPopup": {
-      "foreground": "white"
+      "foreground": "white",
+      "background": "backgroundColor",
+      "infoForeground": "secondaryTextColor",
+      "nonFocusedState": false
     },
     "Component": {
       "arc": 0,
@@ -88,13 +91,21 @@
       "underlinedTabBackground": "selectedTextColor",
       "underlinedTabForeground": "white"
     },
+    "Editor": {
+      "background": "backgroundColor"
+    },
     "EditorTabs": {
       "selectedBackground": "selectedTextColor",
       "underlinedTabBackground": "selectedTextColor",
       "underlinedTabForeground": "white"
     },
     "FileColor": {
-      "Blue": "selectedTextColor"
+      "Blue": "selectedTextColor",
+      "Green": "#011f01",
+      "Orange": "#4C2600",
+      "Rose": "#4C0000",
+      "Violet": "#4C004C",
+      "Yellow": "#4C4C00"
     },
     "Label": {
       "infoForeground": "secondaryTextColor",
