@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# custom-jetbrains-theme Changelog
+# custom-editor-theme Changelog
 
 ## [Unreleased]
 ### Added

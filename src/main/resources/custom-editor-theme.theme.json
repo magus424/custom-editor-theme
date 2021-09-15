@@ -179,6 +179,10 @@
     "StatusBar": {
       "borderColor": "separatorsColor"
     },
+    "Table": {
+      "hoverBackground": "highlightColor",
+      "selectionForeground": "white"
+    },
     "TextArea": {
       "selectionForeground": "white"
     },

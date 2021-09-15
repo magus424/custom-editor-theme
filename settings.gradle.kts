@@ -1,1 +1,1 @@
-rootProject.name = "custom-jetbrains-theme"
+rootProject.name = "custom-editor-theme"
