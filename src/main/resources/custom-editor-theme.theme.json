@@ -133,6 +133,9 @@
     "Link": {
       "activeForeground": "accentColor"
     },
+    "List": {
+      "selectionBackground": "tableSelectedColor"
+    },
     "Menu": {
       "borderColor": "backgroundColor",
       "acceleratorForeground": "secondaryTextColor",
@@ -195,6 +198,7 @@
         "infoForeground": "white"
       },
       "Tab": {
+        "selectedForeground": "selectionForegroundColor",
         "selectedBackground": "accentColor"
       }
     },
